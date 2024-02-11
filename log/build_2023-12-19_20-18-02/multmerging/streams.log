@@ -1,0 +1,21 @@
+[0.177s] Invoking command in '/home/ahmedk/dev_ws/build/multmerging': /usr/bin/cmake /home/ahmedk/dev_ws/src/multi-robot-map-merge-main/src/multmerging -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/multmerging
+[0.213s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[0.213s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.213s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.213s]   CMake did not find one.
+[0.213s] 
+[0.214s]   Could not find a package configuration file provided by "catkin" with any
+[0.214s]   of the following names:
+[0.214s] 
+[0.214s]     catkinConfig.cmake
+[0.214s]     catkin-config.cmake
+[0.215s] 
+[0.215s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.215s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.215s]   provides a separate development package or SDK, be sure it has been
+[0.215s]   installed.
+[0.216s] 
+[0.216s] [0m
+[0.216s] -- Configuring incomplete, errors occurred!
+[0.216s] See also "/home/ahmedk/dev_ws/build/multmerging/CMakeFiles/CMakeOutput.log".
+[0.220s] Invoked command in '/home/ahmedk/dev_ws/build/multmerging' returned '1': /usr/bin/cmake /home/ahmedk/dev_ws/src/multi-robot-map-merge-main/src/multmerging -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/multmerging

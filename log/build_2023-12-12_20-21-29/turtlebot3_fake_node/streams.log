@@ -1,0 +1,56 @@
+[0.096s] Invoking command in '/home/ahmedk/dev_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake /home/ahmedk/dev_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/turtlebot3_fake_node
+[0.163s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.371s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.410s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.475s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.483s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.500s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.529s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.564s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.754s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.883s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.986s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.992s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.405s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.529s] -- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)
+[1.548s] -- Found tf2_msgs: 0.25.5 (/opt/ros/humble/share/tf2_msgs/cmake)
+[1.800s] -- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)
+[2.043s] -- Configuring done
+[2.079s] -- Generating done
+[2.082s] -- Build files have been written to: /home/ahmedk/dev_ws/build/turtlebot3_fake_node
+[2.093s] Invoked command in '/home/ahmedk/dev_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake /home/ahmedk/dev_ws/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/turtlebot3_fake_node
+[2.096s] Invoking command in '/home/ahmedk/dev_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/turtlebot3_fake_node -- -j2 -l2
+[2.164s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_fake_node[0m
+[2.244s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o[0m
+[24.141s] [100%] [32m[1mLinking CXX executable turtlebot3_fake_node[0m
+[25.449s] [100%] Built target turtlebot3_fake_node
+[25.532s] Invoked command in '/home/ahmedk/dev_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/turtlebot3_fake_node -- -j2 -l2
+[25.816s] Invoking command in '/home/ahmedk/dev_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/turtlebot3_fake_node
+[25.836s] -- Install configuration: ""
+[25.838s] -- Execute custom install script
+[25.840s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node
+[25.843s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py
+[25.844s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py
+[25.845s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml
+[25.846s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml
+[25.846s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml
+[25.849s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp
+[25.851s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node
+[25.853s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node
+[25.858s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh
+[25.859s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv
+[25.860s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh
+[25.860s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv
+[25.861s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash
+[25.862s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh
+[25.862s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh
+[25.863s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv
+[25.863s] -- Symlinking: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv
+[25.876s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node
+[25.877s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.878s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.879s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake
+[25.879s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake
+[25.880s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml
+[25.883s] Invoked command in '/home/ahmedk/dev_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/turtlebot3_fake_node

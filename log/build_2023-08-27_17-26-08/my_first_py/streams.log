@@ -1,0 +1,18 @@
+[0.779s] Invoking command in '/home/ahmedk/dev_ws/build/my_first_py': PYTHONPATH=/home/ahmedk/dev_ws/build/my_first_py/prefix_override:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/my_first_py/build --no-deps install_data
+[1.049s] running develop
+[1.234s] running egg_info
+[1.234s] writing my_first_py.egg-info/PKG-INFO
+[1.234s] writing dependency_links to my_first_py.egg-info/dependency_links.txt
+[1.235s] writing entry points to my_first_py.egg-info/entry_points.txt
+[1.235s] writing requirements to my_first_py.egg-info/requires.txt
+[1.235s] writing top-level names to my_first_py.egg-info/top_level.txt
+[1.237s] reading manifest file 'my_first_py.egg-info/SOURCES.txt'
+[1.238s] writing manifest file 'my_first_py.egg-info/SOURCES.txt'
+[1.239s] running build_ext
+[1.239s] Creating /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my-first-py.egg-link (link to .)
+[1.240s] Installing listner script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+[1.240s] Installing talker script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+[1.241s] 
+[1.241s] Installed /home/ahmedk/dev_ws/build/my_first_py
+[1.241s] running install_data
+[1.429s] Invoked command in '/home/ahmedk/dev_ws/build/my_first_py' returned '0': PYTHONPATH=/home/ahmedk/dev_ws/build/my_first_py/prefix_override:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/my_first_py/build --no-deps install_data

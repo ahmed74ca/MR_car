@@ -1,0 +1,33 @@
+[0.195s] Invoking command in '/home/ahmedk/dev_ws/build/multmerging': /usr/bin/cmake /home/ahmedk/dev_ws/src/multi-robot-map-merge-main/src/multmerging -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/multmerging
+[0.488s] -- The C compiler identification is GNU 11.4.0
+[0.721s] -- The CXX compiler identification is GNU 11.4.0
+[0.738s] -- Detecting C compiler ABI info
+[0.919s] -- Detecting C compiler ABI info - done
+[0.948s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.949s] -- Detecting C compile features
+[0.951s] -- Detecting C compile features - done
+[0.965s] -- Detecting CXX compiler ABI info
+[1.173s] -- Detecting CXX compiler ABI info - done
+[1.192s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.193s] -- Detecting CXX compile features
+[1.193s] -- Detecting CXX compile features - done
+[1.218s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.219s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.219s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.219s]   CMake did not find one.
+[1.219s] 
+[1.219s]   Could not find a package configuration file provided by "catkin" with any
+[1.219s]   of the following names:
+[1.219s] 
+[1.219s]     catkinConfig.cmake
+[1.219s]     catkin-config.cmake
+[1.219s] 
+[1.219s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.220s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.220s]   provides a separate development package or SDK, be sure it has been
+[1.220s]   installed.
+[1.220s] 
+[1.220s] [0m
+[1.220s] -- Configuring incomplete, errors occurred!
+[1.220s] See also "/home/ahmedk/dev_ws/build/multmerging/CMakeFiles/CMakeOutput.log".
+[1.223s] Invoked command in '/home/ahmedk/dev_ws/build/multmerging' returned '1': /usr/bin/cmake /home/ahmedk/dev_ws/src/multi-robot-map-merge-main/src/multmerging -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/multmerging

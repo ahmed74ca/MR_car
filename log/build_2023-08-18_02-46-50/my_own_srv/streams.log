@@ -1,0 +1,44 @@
+[0.021s] Invoking command in '/home/ahmedk/dev_ws/build/my_own_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake /home/ahmedk/dev_ws/src/my_own_srv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/my_own_srv
+[0.253s] -- The C compiler identification is GNU 11.4.0
+[0.478s] -- The CXX compiler identification is GNU 11.4.0
+[0.498s] -- Detecting C compiler ABI info
+[0.640s] -- Detecting C compiler ABI info - done
+[0.653s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.655s] -- Detecting C compile features
+[0.657s] -- Detecting C compile features - done
+[0.663s] -- Detecting CXX compiler ABI info
+[0.872s] -- Detecting CXX compiler ABI info - done
+[0.890s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.891s] -- Detecting CXX compile features
+[0.892s] -- Detecting CXX compile features - done
+[0.902s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.219s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.335s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.423s] -- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.608s] -- Added test 'lint_cmake' to check CMake code style
+[1.611s] -- Added test 'xmllint' to check XML markup files
+[1.614s] -- Configuring done
+[1.619s] -- Generating done
+[1.620s] -- Build files have been written to: /home/ahmedk/dev_ws/build/my_own_srv
+[1.626s] Invoked command in '/home/ahmedk/dev_ws/build/my_own_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake /home/ahmedk/dev_ws/src/my_own_srv -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/my_own_srv
+[1.627s] Invoking command in '/home/ahmedk/dev_ws/build/my_own_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_own_srv -- -j2 -l2
+[1.680s] Invoked command in '/home/ahmedk/dev_ws/build/my_own_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_own_srv -- -j2 -l2
+[1.721s] Invoking command in '/home/ahmedk/dev_ws/build/my_own_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/my_own_srv
+[1.732s] -- Install configuration: ""
+[1.733s] -- Execute custom install script
+[1.734s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/package_run_dependencies/my_own_srv
+[1.748s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/parent_prefix_path/my_own_srv
+[1.760s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/ament_prefix_path.sh
+[1.780s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/ament_prefix_path.dsv
+[1.803s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/path.sh
+[1.818s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/path.dsv
+[1.837s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.bash
+[1.850s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.sh
+[1.863s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.zsh
+[1.876s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.dsv
+[1.893s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/package.dsv
+[1.917s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/packages/my_own_srv
+[1.931s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srvConfig.cmake
+[1.944s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srvConfig-version.cmake
+[1.961s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/package.xml
+[1.995s] Invoked command in '/home/ahmedk/dev_ws/build/my_own_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/my_own_srv

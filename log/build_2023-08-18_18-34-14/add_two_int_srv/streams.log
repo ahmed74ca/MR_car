@@ -1,0 +1,23 @@
+[1.739s] Invoking command in '/home/ahmedk/dev_ws/build/add_two_int_srv': PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build --no-deps install_data
+[2.209s] running develop
+[2.530s] running egg_info
+[2.531s] creating add_two_int_srv.egg-info
+[2.531s] writing add_two_int_srv.egg-info/PKG-INFO
+[2.531s] writing dependency_links to add_two_int_srv.egg-info/dependency_links.txt
+[2.532s] writing entry points to add_two_int_srv.egg-info/entry_points.txt
+[2.532s] writing requirements to add_two_int_srv.egg-info/requires.txt
+[2.532s] writing top-level names to add_two_int_srv.egg-info/top_level.txt
+[2.532s] writing manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+[2.534s] reading manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+[2.535s] writing manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+[2.537s] running build_ext
+[2.537s] Creating /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add-two-int-srv.egg-link (link to .)
+[2.538s] 
+[2.539s] Installed /home/ahmedk/dev_ws/build/add_two_int_srv
+[2.539s] running install_data
+[2.539s] creating /home/ahmedk/dev_ws/install/add_two_int_srv/share/ament_index
+[2.539s] creating /home/ahmedk/dev_ws/install/add_two_int_srv/share/ament_index/resource_index
+[2.539s] creating /home/ahmedk/dev_ws/install/add_two_int_srv/share/ament_index/resource_index/packages
+[2.540s] copying resource/add_two_int_srv -> /home/ahmedk/dev_ws/install/add_two_int_srv/share/ament_index/resource_index/packages
+[2.540s] copying package.xml -> /home/ahmedk/dev_ws/install/add_two_int_srv/share/add_two_int_srv
+[2.590s] Invoked command in '/home/ahmedk/dev_ws/build/add_two_int_srv' returned '0': PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build --no-deps install_data

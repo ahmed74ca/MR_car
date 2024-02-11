@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing my_first_py.egg-info/PKG-INFO
+writing dependency_links to my_first_py.egg-info/dependency_links.txt
+writing entry points to my_first_py.egg-info/entry_points.txt
+writing requirements to my_first_py.egg-info/requires.txt
+writing top-level names to my_first_py.egg-info/top_level.txt
+reading manifest file 'my_first_py.egg-info/SOURCES.txt'
+writing manifest file 'my_first_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my-first-py.egg-link (link to .)
+Installing listner script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+Installing talker script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+
+Installed /home/ahmedk/dev_ws/build/my_first_py
+running install_data

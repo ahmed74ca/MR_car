@@ -1,0 +1,120 @@
+[0.104s] Invoking command in '/home/ahmedk/dev_ws/build/my_own_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_own_srv -- -j2 -l2
+[0.597s] [  3%] Built target my_own_srv__cpp
+[0.617s] [ 12%] Built target my_own_srv__rosidl_generator_c
+[0.724s] [ 22%] Built target my_own_srv__rosidl_typesupport_cpp
+[0.783s] [ 22%] Built target ament_cmake_python_symlink_my_own_srv
+[0.859s] [ 32%] Built target my_own_srv__rosidl_typesupport_fastrtps_c
+[0.887s] [ 41%] Built target my_own_srv__rosidl_typesupport_fastrtps_cpp
+[1.015s] [ 51%] Built target my_own_srv__rosidl_typesupport_introspection_c
+[1.049s] [ 61%] Built target my_own_srv__rosidl_typesupport_c
+[1.171s] [ 70%] Built target my_own_srv__rosidl_typesupport_introspection_cpp
+[2.193s] running egg_info
+[2.201s] writing my_own_srv.egg-info/PKG-INFO
+[2.210s] writing dependency_links to my_own_srv.egg-info/dependency_links.txt
+[2.210s] writing top-level names to my_own_srv.egg-info/top_level.txt
+[2.217s] reading manifest file 'my_own_srv.egg-info/SOURCES.txt'
+[2.217s] writing manifest file 'my_own_srv.egg-info/SOURCES.txt'
+[2.344s] [ 70%] Built target ament_cmake_python_build_my_own_srv_egg
+[2.405s] [ 70%] Built target my_own_srv
+[2.478s] [ 74%] Built target my_own_srv__py
+[2.591s] [ 80%] Built target my_own_srv__rosidl_generator_py
+[2.678s] [ 87%] Built target my_own_srv__rosidl_typesupport_fastrtps_c__pyext
+[2.766s] [ 93%] Built target my_own_srv__rosidl_typesupport_introspection_c__pyext
+[2.876s] [100%] Built target my_own_srv__rosidl_typesupport_c__pyext
+[2.939s] Invoked command in '/home/ahmedk/dev_ws/build/my_own_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_own_srv -- -j2 -l2
+[3.206s] Invoking command in '/home/ahmedk/dev_ws/build/my_own_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/my_own_srv
+[3.245s] -- Install configuration: ""
+[3.252s] -- Execute custom install script
+[3.256s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/rosidl_interfaces/my_own_srv
+[3.257s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_generator_c__visibility_control.h
+[3.261s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/add_two_ints.h
+[3.261s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__functions.h
+[3.261s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__struct.h
+[3.264s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__type_support.h
+[3.264s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/library_path.sh
+[3.264s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/library_path.dsv
+[3.273s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.278s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[3.285s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/add_two_ints.hpp
+[3.285s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__builder.hpp
+[3.285s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__struct.hpp
+[3.285s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__traits.hpp
+[3.286s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.293s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.294s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.294s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[3.294s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.294s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/pythonpath.sh
+[3.306s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/pythonpath.dsv
+[3.307s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/PKG-INFO
+[3.310s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.313s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.314s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/top_level.txt
+[3.315s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/__init__.py
+[3.315s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_c.c
+[3.316s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.320s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_introspection_c.c
+[3.320s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/libmy_own_srv__rosidl_generator_py.so
+[3.320s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.323s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.324s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.327s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/__init__.py
+[3.329s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/_add_two_ints.py
+[3.331s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/_add_two_ints_s.c
+[3.341s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.341s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.342s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.342s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts.idl
+[3.342s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts.srv
+[3.342s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts_Request.msg
+[3.342s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts_Response.msg
+[3.342s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/package_run_dependencies/my_own_srv
+[3.344s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/parent_prefix_path/my_own_srv
+[3.346s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/ament_prefix_path.sh
+[3.346s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/ament_prefix_path.dsv
+[3.348s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/path.sh
+[3.354s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/path.dsv
+[3.354s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.bash
+[3.356s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.sh
+[3.356s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.zsh
+[3.356s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.dsv
+[3.356s] -- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/package.dsv
+[3.395s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/packages/my_own_srv
+[3.395s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/rosidl_cmake-extras.cmake
+[3.396s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.397s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.409s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_libraries-extras.cmake
+[3.409s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_targets-extras.cmake
+[3.409s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.409s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.409s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srvConfig.cmake
+[3.410s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srvConfig-version.cmake
+[3.412s] -- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/package.xml
+[3.413s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_generator_c.so
+[3.423s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_fastrtps_c.so
+[3.423s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_fastrtps_cpp.so
+[3.423s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_introspection_c.so
+[3.427s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_c.so
+[3.429s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_introspection_cpp.so
+[3.431s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_cpp.so
+[3.546s] Listing '/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv'...
+[3.546s] Listing '/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv'...
+[3.565s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_generator_py.so
+[3.566s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_cExport.cmake
+[3.567s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_cExport-noconfig.cmake
+[3.572s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cExport.cmake
+[3.579s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.590s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_cppExport.cmake
+[3.592s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.592s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.593s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cExport.cmake
+[3.593s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.599s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cExport.cmake
+[3.600s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cExport-noconfig.cmake
+[3.603s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cppExport.cmake
+[3.603s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.603s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cppExport.cmake
+[3.604s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cppExport-noconfig.cmake
+[3.611s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_pyExport.cmake
+[3.611s] -- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_pyExport-noconfig.cmake
+[3.627s] Invoked command in '/home/ahmedk/dev_ws/build/my_own_srv' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/my_own_srv

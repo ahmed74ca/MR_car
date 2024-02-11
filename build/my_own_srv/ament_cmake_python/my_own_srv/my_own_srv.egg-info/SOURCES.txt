@@ -1,0 +1,8 @@
+setup.py
+my_own_srv/__init__.py
+my_own_srv.egg-info/PKG-INFO
+my_own_srv.egg-info/SOURCES.txt
+my_own_srv.egg-info/dependency_links.txt
+my_own_srv.egg-info/top_level.txt
+my_own_srv/srv/__init__.py
+my_own_srv/srv/_add_two_ints.py

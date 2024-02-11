@@ -1,0 +1,4 @@
+[console_scripts]
+listner = my_first_py.subscriber:main
+talker = my_first_py.publisher:main
+

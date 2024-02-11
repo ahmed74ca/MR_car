@@ -1,0 +1,2 @@
+Invoking command in '/home/ahmedk/dev_ws/build/my_own_srv': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_own_srv -- -j2 -l2
+Invoked command in '/home/ahmedk/dev_ws/build/my_own_srv' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_own_srv -- -j2 -l2

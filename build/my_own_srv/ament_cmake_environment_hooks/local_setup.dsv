@@ -1,0 +1,4 @@
+source;share/my_own_srv/environment/ament_prefix_path.sh
+source;share/my_own_srv/environment/library_path.sh
+source;share/my_own_srv/environment/path.sh
+source;share/my_own_srv/environment/pythonpath.sh

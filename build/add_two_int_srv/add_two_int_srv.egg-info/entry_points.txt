@@ -1,0 +1,3 @@
+[console_scripts]
+server = add_two_int_srv.server:main
+

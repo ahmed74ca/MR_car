@@ -1,0 +1,34 @@
+[1.638s] Invoking command in '/home/ahmedk/dev_ws/build/add_two_int_srv': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/rplidar_ros:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_bot LD_LIBRARY_PATH=/home/ahmedk/dev_ws/install/my_own_srv/lib:/home/ahmedk/dev_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build
+[2.065s] running develop
+[2.401s] Removing /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add-two-int-srv.egg-link (link to .)
+[2.483s] Invoked command in '/home/ahmedk/dev_ws/build/add_two_int_srv' returned '0': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/rplidar_ros:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_bot LD_LIBRARY_PATH=/home/ahmedk/dev_ws/install/my_own_srv/lib:/home/ahmedk/dev_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build
+[2.485s] Invoking command in '/home/ahmedk/dev_ws/src/add_two_int_srv': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/rplidar_ros:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_bot LD_LIBRARY_PATH=/home/ahmedk/dev_ws/install/my_own_srv/lib:/home/ahmedk/dev_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_two_int_srv build --build-base /home/ahmedk/dev_ws/build/add_two_int_srv/build install --record /home/ahmedk/dev_ws/build/add_two_int_srv/install.log --single-version-externally-managed
+[2.963s] running egg_info
+[2.964s] writing ../../build/add_two_int_srv/add_two_int_srv.egg-info/PKG-INFO
+[2.966s] writing dependency_links to ../../build/add_two_int_srv/add_two_int_srv.egg-info/dependency_links.txt
+[2.967s] writing entry points to ../../build/add_two_int_srv/add_two_int_srv.egg-info/entry_points.txt
+[2.969s] writing requirements to ../../build/add_two_int_srv/add_two_int_srv.egg-info/requires.txt
+[2.969s] writing top-level names to ../../build/add_two_int_srv/add_two_int_srv.egg-info/top_level.txt
+[2.972s] reading manifest file '../../build/add_two_int_srv/add_two_int_srv.egg-info/SOURCES.txt'
+[2.974s] writing manifest file '../../build/add_two_int_srv/add_two_int_srv.egg-info/SOURCES.txt'
+[2.974s] running build
+[2.974s] running build_py
+[2.975s] creating /home/ahmedk/dev_ws/build/add_two_int_srv/build
+[2.975s] creating /home/ahmedk/dev_ws/build/add_two_int_srv/build/lib
+[2.975s] creating /home/ahmedk/dev_ws/build/add_two_int_srv/build/lib/add_two_int_srv
+[2.978s] copying add_two_int_srv/server.py -> /home/ahmedk/dev_ws/build/add_two_int_srv/build/lib/add_two_int_srv
+[2.979s] copying add_two_int_srv/__init__.py -> /home/ahmedk/dev_ws/build/add_two_int_srv/build/lib/add_two_int_srv
+[2.979s] running install
+[2.979s] running install_lib
+[2.980s] creating /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add_two_int_srv
+[2.981s] copying /home/ahmedk/dev_ws/build/add_two_int_srv/build/lib/add_two_int_srv/server.py -> /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add_two_int_srv
+[2.981s] copying /home/ahmedk/dev_ws/build/add_two_int_srv/build/lib/add_two_int_srv/__init__.py -> /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add_two_int_srv
+[2.982s] byte-compiling /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add_two_int_srv/server.py to server.cpython-310.pyc
+[2.984s] byte-compiling /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add_two_int_srv/__init__.py to __init__.cpython-310.pyc
+[2.984s] running install_data
+[2.985s] running install_egg_info
+[2.988s] Copying ../../build/add_two_int_srv/add_two_int_srv.egg-info to /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add_two_int_srv-0.0.0-py3.10.egg-info
+[2.990s] running install_scripts
+[3.029s] Installing server script to /home/ahmedk/dev_ws/install/add_two_int_srv/lib/add_two_int_srv
+[3.031s] writing list of installed files to '/home/ahmedk/dev_ws/build/add_two_int_srv/install.log'
+[3.137s] Invoked command in '/home/ahmedk/dev_ws/src/add_two_int_srv' returned '0': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/rplidar_ros:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_bot LD_LIBRARY_PATH=/home/ahmedk/dev_ws/install/my_own_srv/lib:/home/ahmedk/dev_ws/install/rplidar_ros/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/add_two_int_srv build --build-base /home/ahmedk/dev_ws/build/add_two_int_srv/build install --record /home/ahmedk/dev_ws/build/add_two_int_srv/install.log --single-version-externally-managed

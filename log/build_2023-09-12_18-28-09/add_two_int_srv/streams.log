@@ -1,0 +1,17 @@
+[1.481s] Invoking command in '/home/ahmedk/dev_ws/build/add_two_int_srv': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_bot PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build --no-deps install_data
+[1.993s] running develop
+[2.325s] running egg_info
+[2.326s] writing add_two_int_srv.egg-info/PKG-INFO
+[2.327s] writing dependency_links to add_two_int_srv.egg-info/dependency_links.txt
+[2.327s] writing entry points to add_two_int_srv.egg-info/entry_points.txt
+[2.328s] writing requirements to add_two_int_srv.egg-info/requires.txt
+[2.329s] writing top-level names to add_two_int_srv.egg-info/top_level.txt
+[2.332s] reading manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+[2.336s] writing manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+[2.338s] running build_ext
+[2.338s] Creating /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add-two-int-srv.egg-link (link to .)
+[2.339s] Installing server script to /home/ahmedk/dev_ws/install/add_two_int_srv/lib/add_two_int_srv
+[2.340s] 
+[2.340s] Installed /home/ahmedk/dev_ws/build/add_two_int_srv
+[2.340s] running install_data
+[2.381s] Invoked command in '/home/ahmedk/dev_ws/build/add_two_int_srv' returned '0': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_bot PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build --no-deps install_data

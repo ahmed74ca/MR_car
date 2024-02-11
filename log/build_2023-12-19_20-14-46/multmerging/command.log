@@ -1,0 +1,2 @@
+Invoking command in '/home/ahmedk/dev_ws/build/multmerging': /usr/bin/cmake /home/ahmedk/dev_ws/src/multi-robot-map-merge-main/src/multmerging -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/multmerging
+Invoked command in '/home/ahmedk/dev_ws/build/multmerging' returned '1': /usr/bin/cmake /home/ahmedk/dev_ws/src/multi-robot-map-merge-main/src/multmerging -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/multmerging

@@ -1,0 +1,1 @@
+Invoking command in '/home/ahmedk/dev_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble /usr/bin/cmake /home/ahmedk/dev_ws/src/my_package -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/my_package

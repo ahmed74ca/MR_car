@@ -1,0 +1,38 @@
+[2.092s] Invoking command in '/home/ahmedk/dev_ws/build/my_first_py': PYTHONPATH=/home/ahmedk/dev_ws/build/my_first_py/prefix_override:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ahmedk/dev_ws/build/my_first_py/build
+[2.687s] running develop
+[3.188s] Removing /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my-first-py.egg-link (link to .)
+[3.273s] Invoked command in '/home/ahmedk/dev_ws/build/my_first_py' returned '0': PYTHONPATH=/home/ahmedk/dev_ws/build/my_first_py/prefix_override:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ahmedk/dev_ws/build/my_first_py/build
+[3.273s] Invoking command in '/home/ahmedk/dev_ws/src/my_first_py': PYTHONPATH=/home/ahmedk/dev_ws/build/my_first_py/prefix_override:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_py build --build-base /home/ahmedk/dev_ws/build/my_first_py/build install --record /home/ahmedk/dev_ws/build/my_first_py/install.log --single-version-externally-managed
+[3.847s] running egg_info
+[3.848s] writing ../../build/my_first_py/my_first_py.egg-info/PKG-INFO
+[3.849s] writing dependency_links to ../../build/my_first_py/my_first_py.egg-info/dependency_links.txt
+[3.850s] writing entry points to ../../build/my_first_py/my_first_py.egg-info/entry_points.txt
+[3.853s] writing requirements to ../../build/my_first_py/my_first_py.egg-info/requires.txt
+[3.853s] writing top-level names to ../../build/my_first_py/my_first_py.egg-info/top_level.txt
+[3.856s] reading manifest file '../../build/my_first_py/my_first_py.egg-info/SOURCES.txt'
+[3.858s] writing manifest file '../../build/my_first_py/my_first_py.egg-info/SOURCES.txt'
+[3.860s] running build
+[3.860s] running build_py
+[3.860s] creating /home/ahmedk/dev_ws/build/my_first_py/build
+[3.861s] creating /home/ahmedk/dev_ws/build/my_first_py/build/lib
+[3.861s] creating /home/ahmedk/dev_ws/build/my_first_py/build/lib/my_first_py
+[3.862s] copying my_first_py/subscriber.py -> /home/ahmedk/dev_ws/build/my_first_py/build/lib/my_first_py
+[3.863s] copying my_first_py/__init__.py -> /home/ahmedk/dev_ws/build/my_first_py/build/lib/my_first_py
+[3.863s] copying my_first_py/publisher.py -> /home/ahmedk/dev_ws/build/my_first_py/build/lib/my_first_py
+[3.864s] running install
+[3.866s] running install_lib
+[3.868s] creating /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py
+[3.868s] copying /home/ahmedk/dev_ws/build/my_first_py/build/lib/my_first_py/subscriber.py -> /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py
+[3.868s] copying /home/ahmedk/dev_ws/build/my_first_py/build/lib/my_first_py/__init__.py -> /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py
+[3.868s] copying /home/ahmedk/dev_ws/build/my_first_py/build/lib/my_first_py/publisher.py -> /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py
+[3.869s] byte-compiling /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py/subscriber.py to subscriber.cpython-310.pyc
+[3.870s] byte-compiling /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py/__init__.py to __init__.cpython-310.pyc
+[3.870s] byte-compiling /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py/publisher.py to publisher.cpython-310.pyc
+[3.870s] running install_data
+[3.872s] running install_egg_info
+[3.878s] Copying ../../build/my_first_py/my_first_py.egg-info to /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my_first_py-0.0.0-py3.10.egg-info
+[3.881s] running install_scripts
+[3.918s] Installing listner script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+[3.919s] Installing talker script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+[3.919s] writing list of installed files to '/home/ahmedk/dev_ws/build/my_first_py/install.log'
+[3.964s] Invoked command in '/home/ahmedk/dev_ws/src/my_first_py' returned '0': PYTHONPATH=/home/ahmedk/dev_ws/build/my_first_py/prefix_override:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_first_py build --build-base /home/ahmedk/dev_ws/build/my_first_py/build install --record /home/ahmedk/dev_ws/build/my_first_py/install.log --single-version-externally-managed

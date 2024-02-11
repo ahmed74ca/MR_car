@@ -1,0 +1,1222 @@
+[0.000000] (-) TimerEvent: {}
+[0.001116] (multmerging) JobQueued: {'identifier': 'multmerging', 'dependencies': OrderedDict()}
+[0.001209] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.001265] (my_first_py) JobQueued: {'identifier': 'my_first_py', 'dependencies': OrderedDict()}
+[0.001358] (my_own_srv) JobQueued: {'identifier': 'my_own_srv', 'dependencies': OrderedDict()}
+[0.001380] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001404] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001469] (turtlebot3_fake_node) JobQueued: {'identifier': 'turtlebot3_fake_node', 'dependencies': OrderedDict()}
+[0.001602] (turtlebot3_gazebo) JobQueued: {'identifier': 'turtlebot3_gazebo', 'dependencies': OrderedDict()}
+[0.001997] (add_two_int_srv) JobQueued: {'identifier': 'add_two_int_srv', 'dependencies': OrderedDict([('my_own_srv', '/home/ahmedk/dev_ws/install/my_own_srv')])}
+[0.002077] (turtlebot3_simulations) JobQueued: {'identifier': 'turtlebot3_simulations', 'dependencies': OrderedDict([('turtlebot3_fake_node', '/home/ahmedk/dev_ws/install/turtlebot3_fake_node'), ('turtlebot3_gazebo', '/home/ahmedk/dev_ws/install/turtlebot3_gazebo')])}
+[0.002104] (my_own_srv) JobStarted: {'identifier': 'my_own_srv'}
+[0.094552] (turtlebot3_fake_node) JobStarted: {'identifier': 'turtlebot3_fake_node'}
+[0.104537] (-) TimerEvent: {}
+[0.172356] (my_own_srv) JobProgress: {'identifier': 'my_own_srv', 'progress': 'cmake'}
+[0.175356] (my_own_srv) Command: {'cmd': ['/usr/bin/cmake', '/home/ahmedk/dev_ws/src/my_own_srv', '-DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/my_own_srv'], 'cwd': '/home/ahmedk/dev_ws/build/my_own_srv', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/my_own_srv'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[0.183893] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'cmake'}
+[0.187245] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ahmedk/dev_ws/src/turtlebot3_simulations/turtlebot3_fake_node', '-DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/turtlebot3_fake_node'], 'cwd': '/home/ahmedk/dev_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[0.204948] (-) TimerEvent: {}
+[0.257114] (my_own_srv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.257399] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.305637] (-) TimerEvent: {}
+[0.406853] (-) TimerEvent: {}
+[0.464872] (my_own_srv) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.465151] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.504019] (my_own_srv) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.504544] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.506951] (-) TimerEvent: {}
+[0.569910] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.570443] (my_own_srv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.577194] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.577766] (my_own_srv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.594436] (my_own_srv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.594808] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.607505] (-) TimerEvent: {}
+[0.623101] (my_own_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.623296] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.658254] (my_own_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.658495] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.707781] (-) TimerEvent: {}
+[0.754408] (my_own_srv) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.808106] (-) TimerEvent: {}
+[0.848857] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.908719] (-) TimerEvent: {}
+[0.977756] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.008929] (-) TimerEvent: {}
+[1.080142] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.085873] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.109149] (-) TimerEvent: {}
+[1.183307] (my_own_srv) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.209334] (-) TimerEvent: {}
+[1.278030] (turtlebot3_fake_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.310173] (-) TimerEvent: {}
+[1.411519] (-) TimerEvent: {}
+[1.499354] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.512126] (-) TimerEvent: {}
+[1.613202] (-) TimerEvent: {}
+[1.623217] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.642287] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.5 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.713797] (-) TimerEvent: {}
+[1.739231] (my_own_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.814530] (-) TimerEvent: {}
+[1.894399] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Found turtlebot3_msgs: 2.2.3 (/opt/ros/humble/share/turtlebot3_msgs/cmake)\n'}
+[1.915214] (-) TimerEvent: {}
+[1.937572] (my_own_srv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.970231] (my_own_srv) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.006484] (my_own_srv) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.006878] (my_own_srv) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.006992] (my_own_srv) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.015341] (-) TimerEvent: {}
+[2.057508] (my_own_srv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.100596] (my_own_srv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.102912] (my_own_srv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.110038] (my_own_srv) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.115983] (-) TimerEvent: {}
+[2.137312] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.173273] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Generating done\n'}
+[2.176721] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Build files have been written to: /home/ahmedk/dev_ws/build/turtlebot3_fake_node\n'}
+[2.187319] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[2.188005] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'build'}
+[2.189773] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmedk/dev_ws/build/turtlebot3_fake_node', '--', '-j2', '-l2'], 'cwd': '/home/ahmedk/dev_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[2.216175] (-) TimerEvent: {}
+[2.225419] (my_own_srv) StdoutLine: {'line': b'-- Generating done\n'}
+[2.233815] (my_own_srv) StdoutLine: {'line': b'-- Build files have been written to: /home/ahmedk/dev_ws/build/my_own_srv\n'}
+[2.242701] (my_own_srv) CommandEnded: {'returncode': 0}
+[2.243176] (my_own_srv) JobProgress: {'identifier': 'my_own_srv', 'progress': 'build'}
+[2.243209] (my_own_srv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmedk/dev_ws/build/my_own_srv', '--', '-j2', '-l2'], 'cwd': '/home/ahmedk/dev_ws/build/my_own_srv', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/my_own_srv'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[2.258169] (turtlebot3_fake_node) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlebot3_fake_node\x1b[0m\n'}
+[2.316487] (-) TimerEvent: {}
+[2.329075] (my_own_srv) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.338089] (turtlebot3_fake_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_fake_node.dir/src/turtlebot3_fake_node.cpp.o\x1b[0m\n'}
+[2.348414] (my_own_srv) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.416779] (-) TimerEvent: {}
+[2.517470] (-) TimerEvent: {}
+[2.617946] (-) TimerEvent: {}
+[2.718641] (-) TimerEvent: {}
+[2.819309] (-) TimerEvent: {}
+[2.919894] (-) TimerEvent: {}
+[3.020377] (-) TimerEvent: {}
+[3.085031] (my_own_srv) StdoutLine: {'line': b'[  6%] Built target my_own_srv__cpp\n'}
+[3.120542] (-) TimerEvent: {}
+[3.127321] (my_own_srv) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_my_own_srv\n'}
+[3.136531] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_generator_c\x1b[0m\n'}
+[3.142829] (my_own_srv) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.183962] (my_own_srv) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/my_own_srv__rosidl_generator_c.dir/rosidl_generator_c/my_own_srv/srv/detail/add_two_ints__functions.c.o\x1b[0m\n'}
+[3.221337] (-) TimerEvent: {}
+[3.322098] (-) TimerEvent: {}
+[3.423381] (-) TimerEvent: {}
+[3.495273] (my_own_srv) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libmy_own_srv__rosidl_generator_c.so\x1b[0m\n'}
+[3.524139] (-) TimerEvent: {}
+[3.624707] (-) TimerEvent: {}
+[3.632506] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.648696] (my_own_srv) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/my_own_srv__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_own_srv/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[3.649019] (my_own_srv) StdoutLine: {'line': b'[ 19%] Built target my_own_srv__rosidl_generator_c\n'}
+[3.682974] (my_own_srv) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.724863] (-) TimerEvent: {}
+[3.825439] (-) TimerEvent: {}
+[3.926582] (-) TimerEvent: {}
+[4.027213] (-) TimerEvent: {}
+[4.128137] (-) TimerEvent: {}
+[4.228661] (-) TimerEvent: {}
+[4.294505] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[4.308605] (my_own_srv) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libmy_own_srv__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.328731] (my_own_srv) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/my_own_srv__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_own_srv/srv/detail/dds_fastrtps/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[4.328941] (-) TimerEvent: {}
+[4.429687] (-) TimerEvent: {}
+[4.430718] (my_own_srv) StdoutLine: {'line': b'[ 29%] Built target my_own_srv__rosidl_typesupport_cpp\n'}
+[4.482053] (my_own_srv) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.530397] (-) TimerEvent: {}
+[4.631164] (-) TimerEvent: {}
+[4.732701] (-) TimerEvent: {}
+[4.834673] (-) TimerEvent: {}
+[4.935348] (-) TimerEvent: {}
+[4.979653] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[4.994322] (my_own_srv) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/my_own_srv__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_own_srv/srv/detail/add_two_ints__type_support.c.o\x1b[0m\n'}
+[5.036137] (-) TimerEvent: {}
+[5.090155] (my_own_srv) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libmy_own_srv__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.137011] (-) TimerEvent: {}
+[5.162367] (my_own_srv) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libmy_own_srv__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.188068] (my_own_srv) StdoutLine: {'line': b'[ 41%] Built target my_own_srv__rosidl_typesupport_introspection_c\n'}
+[5.220721] (my_own_srv) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.237490] (-) TimerEvent: {}
+[5.298806] (my_own_srv) StdoutLine: {'line': b'[ 45%] Built target my_own_srv__rosidl_typesupport_fastrtps_cpp\n'}
+[5.338241] (-) TimerEvent: {}
+[5.338643] (my_own_srv) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.438949] (-) TimerEvent: {}
+[5.539677] (-) TimerEvent: {}
+[5.640465] (-) TimerEvent: {}
+[5.654553] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_c\x1b[0m\n'}
+[5.702135] (my_own_srv) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_own_srv__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_own_srv/srv/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[5.741159] (-) TimerEvent: {}
+[5.799487] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[5.817309] (my_own_srv) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libmy_own_srv__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.834614] (my_own_srv) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/my_own_srv__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_own_srv/srv/detail/add_two_ints__type_support.cpp.o\x1b[0m\n'}
+[5.842030] (-) TimerEvent: {}
+[5.909127] (my_own_srv) StdoutLine: {'line': b'[ 58%] Built target my_own_srv__rosidl_typesupport_c\n'}
+[5.942827] (-) TimerEvent: {}
+[6.043408] (-) TimerEvent: {}
+[6.144705] (-) TimerEvent: {}
+[6.249989] (-) TimerEvent: {}
+[6.350749] (-) TimerEvent: {}
+[6.451753] (-) TimerEvent: {}
+[6.553039] (-) TimerEvent: {}
+[6.627406] (my_own_srv) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libmy_own_srv__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.653213] (-) TimerEvent: {}
+[6.687142] (my_own_srv) StdoutLine: {'line': b'running egg_info\n'}
+[6.687453] (my_own_srv) StdoutLine: {'line': b'writing my_own_srv.egg-info/PKG-INFO\n'}
+[6.687685] (my_own_srv) StdoutLine: {'line': b'writing dependency_links to my_own_srv.egg-info/dependency_links.txt\n'}
+[6.688520] (my_own_srv) StdoutLine: {'line': b'writing top-level names to my_own_srv.egg-info/top_level.txt\n'}
+[6.696560] (my_own_srv) StdoutLine: {'line': b"reading manifest file 'my_own_srv.egg-info/SOURCES.txt'\n"}
+[6.698223] (my_own_srv) StdoutLine: {'line': b"writing manifest file 'my_own_srv.egg-info/SOURCES.txt'\n"}
+[6.727043] (my_own_srv) StdoutLine: {'line': b'[ 61%] Built target my_own_srv__rosidl_typesupport_introspection_cpp\n'}
+[6.729192] (my_own_srv) StdoutLine: {'line': b'[ 61%] Built target ament_cmake_python_build_my_own_srv_egg\n'}
+[6.742353] (my_own_srv) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.754261] (-) TimerEvent: {}
+[6.854674] (-) TimerEvent: {}
+[6.955399] (-) TimerEvent: {}
+[7.037170] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[7.051938] (my_own_srv) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/my_own_srv__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_own_srv/srv/detail/add_two_ints__type_support_c.cpp.o\x1b[0m\n'}
+[7.056162] (-) TimerEvent: {}
+[7.156909] (-) TimerEvent: {}
+[7.257427] (-) TimerEvent: {}
+[7.358092] (-) TimerEvent: {}
+[7.459083] (-) TimerEvent: {}
+[7.554161] (my_own_srv) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libmy_own_srv__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.559839] (-) TimerEvent: {}
+[7.641944] (my_own_srv) StdoutLine: {'line': b'[ 70%] Built target my_own_srv__rosidl_typesupport_fastrtps_c\n'}
+[7.660530] (-) TimerEvent: {}
+[7.666938] (my_own_srv) StdoutLine: {'line': b'[ 70%] Built target my_own_srv\n'}
+[7.693936] (my_own_srv) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.761298] (-) TimerEvent: {}
+[7.861979] (-) TimerEvent: {}
+[7.962869] (-) TimerEvent: {}
+[8.063448] (-) TimerEvent: {}
+[8.130229] (my_own_srv) StdoutLine: {'line': b'[ 74%] Built target my_own_srv__py\n'}
+[8.144981] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_generator_py\x1b[0m\n'}
+[8.164307] (-) TimerEvent: {}
+[8.167935] (my_own_srv) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/my_own_srv__rosidl_generator_py.dir/rosidl_generator_py/my_own_srv/srv/_add_two_ints_s.c.o\x1b[0m\n'}
+[8.264568] (-) TimerEvent: {}
+[8.365526] (-) TimerEvent: {}
+[8.409966] (my_own_srv) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_own_srv/libmy_own_srv__rosidl_generator_py.so\x1b[0m\n'}
+[8.466549] (-) TimerEvent: {}
+[8.478060] (my_own_srv) StdoutLine: {'line': b'[ 80%] Built target my_own_srv__rosidl_generator_py\n'}
+[8.502106] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[8.519145] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[8.534149] (my_own_srv) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/my_own_srv__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[8.545108] (my_own_srv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_own_srv__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[8.566707] (-) TimerEvent: {}
+[8.668097] (-) TimerEvent: {}
+[8.722951] (my_own_srv) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_own_srv/my_own_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.768609] (-) TimerEvent: {}
+[8.774779] (my_own_srv) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_own_srv/my_own_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.779588] (my_own_srv) StdoutLine: {'line': b'[ 93%] Built target my_own_srv__rosidl_typesupport_introspection_c__pyext\n'}
+[8.823621] (my_own_srv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_own_srv__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[8.830531] (my_own_srv) StdoutLine: {'line': b'[ 93%] Built target my_own_srv__rosidl_typesupport_fastrtps_c__pyext\n'}
+[8.842821] (my_own_srv) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/my_own_srv__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[8.869626] (-) TimerEvent: {}
+[8.951437] (my_own_srv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_own_srv/my_own_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[8.970181] (-) TimerEvent: {}
+[8.992991] (my_own_srv) StdoutLine: {'line': b'[100%] Built target my_own_srv__rosidl_typesupport_c__pyext\n'}
+[9.009790] (my_own_srv) CommandEnded: {'returncode': 0}
+[9.070976] (-) TimerEvent: {}
+[9.076312] (my_own_srv) JobProgress: {'identifier': 'my_own_srv', 'progress': 'install'}
+[9.086760] (my_own_srv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ahmedk/dev_ws/build/my_own_srv'], 'cwd': '/home/ahmedk/dev_ws/build/my_own_srv', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/my_own_srv'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[9.097214] (my_own_srv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.098814] (my_own_srv) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[9.101307] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/rosidl_interfaces/my_own_srv\n'}
+[9.106052] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_generator_c__visibility_control.h\n'}
+[9.107838] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/add_two_ints.h\n'}
+[9.109173] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__functions.h\n'}
+[9.110010] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__struct.h\n'}
+[9.110934] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__type_support.h\n'}
+[9.112273] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/library_path.sh\n'}
+[9.113075] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/library_path.dsv\n'}
+[9.114329] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[9.115181] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[9.116567] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/add_two_ints.hpp\n'}
+[9.117293] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__builder.hpp\n'}
+[9.118074] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__struct.hpp\n'}
+[9.118909] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__traits.hpp\n'}
+[9.120224] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[9.121061] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[9.122178] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[9.122882] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[9.124039] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/include/my_own_srv/my_own_srv/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[9.124838] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/pythonpath.sh\n'}
+[9.125605] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/pythonpath.dsv\n'}
+[9.126247] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[9.127054] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[9.128016] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[9.128771] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[9.130624] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/__init__.py\n'}
+[9.131405] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_c.c\n'}
+[9.132514] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[9.133216] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/_my_own_srv_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[9.133987] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/libmy_own_srv__rosidl_generator_py.so\n'}
+[9.134747] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.135709] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.136554] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.139363] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/__init__.py\n'}
+[9.140165] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/_add_two_ints.py\n'}
+[9.141021] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/_add_two_ints_s.c\n'}
+[9.141803] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.142932] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.144501] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/my_own_srv_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[9.145942] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts.idl\n'}
+[9.146404] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts.srv\n'}
+[9.147202] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts_Request.msg\n'}
+[9.147974] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/srv/AddTwoInts_Response.msg\n'}
+[9.148470] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/package_run_dependencies/my_own_srv\n'}
+[9.149570] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/parent_prefix_path/my_own_srv\n'}
+[9.150277] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/ament_prefix_path.sh\n'}
+[9.150976] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/ament_prefix_path.dsv\n'}
+[9.151722] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/path.sh\n'}
+[9.152846] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/environment/path.dsv\n'}
+[9.154210] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.bash\n'}
+[9.155846] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.sh\n'}
+[9.156812] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.zsh\n'}
+[9.157689] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/local_setup.dsv\n'}
+[9.158109] (my_own_srv) StdoutLine: {'line': b'-- Symlinking: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/package.dsv\n'}
+[9.171647] (-) TimerEvent: {}
+[9.172844] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/ament_index/resource_index/packages/my_own_srv\n'}
+[9.173971] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/rosidl_cmake-extras.cmake\n'}
+[9.174978] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.175789] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.176541] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[9.177726] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[9.178456] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[9.179238] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[9.180227] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srvConfig.cmake\n'}
+[9.180936] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srvConfig-version.cmake\n'}
+[9.181330] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/package.xml\n'}
+[9.182801] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_generator_c.so\n'}
+[9.183369] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_generator_c.so" to ""\n'}
+[9.184671] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_fastrtps_c.so\n'}
+[9.185352] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[9.186972] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_fastrtps_cpp.so\n'}
+[9.187570] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[9.188676] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_introspection_c.so\n'}
+[9.189204] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_introspection_c.so" to ""\n'}
+[9.190261] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_c.so\n'}
+[9.190875] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_c.so" to ""\n'}
+[9.192326] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_introspection_cpp.so\n'}
+[9.193065] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[9.194341] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_cpp.so\n'}
+[9.194942] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_typesupport_cpp.so" to ""\n'}
+[9.248668] (my_own_srv) StdoutLine: {'line': b"Listing '/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv'...\n"}
+[9.248902] (my_own_srv) StdoutLine: {'line': b"Compiling '/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/__init__.py'...\n"}
+[9.248980] (my_own_srv) StdoutLine: {'line': b"Listing '/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv'...\n"}
+[9.249042] (my_own_srv) StdoutLine: {'line': b"Compiling '/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/__init__.py'...\n"}
+[9.249101] (my_own_srv) StdoutLine: {'line': b"Compiling '/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages/my_own_srv/srv/_add_two_ints.py'...\n"}
+[9.255929] (my_own_srv) StdoutLine: {'line': b'-- Installing: /home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_generator_py.so\n'}
+[9.256514] (my_own_srv) StdoutLine: {'line': b'-- Set runtime path of "/home/ahmedk/dev_ws/install/my_own_srv/lib/libmy_own_srv__rosidl_generator_py.so" to ""\n'}
+[9.257573] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_cExport.cmake\n'}
+[9.257793] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_cExport-noconfig.cmake\n'}
+[9.258754] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[9.259020] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[9.259844] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_cppExport.cmake\n'}
+[9.260843] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[9.261110] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[9.262028] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cExport.cmake\n'}
+[9.262294] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[9.263207] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cExport.cmake\n'}
+[9.263630] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[9.264487] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[9.264746] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[9.265641] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cppExport.cmake\n'}
+[9.265902] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/my_own_srv__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[9.266749] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_pyExport.cmake\n'}
+[9.267009] (my_own_srv) StdoutLine: {'line': b'-- Up-to-date: /home/ahmedk/dev_ws/install/my_own_srv/share/my_own_srv/cmake/export_my_own_srv__rosidl_generator_pyExport-noconfig.cmake\n'}
+[9.273766] (my_own_srv) CommandEnded: {'returncode': 0}
+[9.274158] (-) TimerEvent: {}
+[9.374519] (-) TimerEvent: {}
+[9.475207] (-) TimerEvent: {}
+[9.575626] (-) TimerEvent: {}
+[9.594317] (my_own_srv) JobEnded: {'identifier': 'my_own_srv', 'rc': 0}
+[9.595319] (turtlebot3_gazebo) JobStarted: {'identifier': 'turtlebot3_gazebo'}
+[9.676466] (-) TimerEvent: {}
+[9.721077] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'cmake'}
+[9.724841] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/ahmedk/dev_ws/src/turtlebot3_simulations/turtlebot3_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/turtlebot3_gazebo'], 'cwd': '/home/ahmedk/dev_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[9.776924] (-) TimerEvent: {}
+[9.789043] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.877282] (-) TimerEvent: {}
+[9.978203] (-) TimerEvent: {}
+[9.985423] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[10.026003] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[10.026282] (turtlebot3_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[10.026397] (turtlebot3_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[10.026479] (turtlebot3_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[10.026558] (turtlebot3_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[10.026637] (turtlebot3_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[10.026714] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[10.026791] (turtlebot3_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[10.026984] (turtlebot3_gazebo) StderrLine: {'line': b'  CMakeLists.txt:23 (find_package)\n'}
+[10.027061] (turtlebot3_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[10.027153] (turtlebot3_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[10.078650] (-) TimerEvent: {}
+[10.080908] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[10.163926] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[10.168154] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.179021] (-) TimerEvent: {}
+[10.179647] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[10.183162] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[10.192573] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[10.193318] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[10.205025] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[10.213538] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[10.213787] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[10.213884] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[10.214010] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[10.218628] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[10.218870] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[10.219000] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[10.219117] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[10.219233] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[10.219350] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[10.219536] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[10.279225] (-) TimerEvent: {}
+[10.365333] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.367879] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[10.368504] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[10.379993] (-) TimerEvent: {}
+[10.391644] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[10.406179] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[10.411047] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[10.440670] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[10.479335] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[10.480181] (-) TimerEvent: {}
+[10.492650] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[10.531029] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.531476] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[10.551814] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.557680] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[10.571183] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[10.580363] (-) TimerEvent: {}
+[10.616593] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.618644] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.620562] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[10.620954] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[10.621080] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[10.640817] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[10.643030] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[10.643821] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[10.644441] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.648260] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[10.648918] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[10.681128] (-) TimerEvent: {}
+[10.711032] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[10.737254] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[10.778968] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[10.781842] (-) TimerEvent: {}
+[10.793201] (turtlebot3_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[10.838831] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[10.839575] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.0\n'}
+[10.840098] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[10.848374] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[10.849336] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[10.881988] (-) TimerEvent: {}
+[10.890405] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[10.897345] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[10.912112] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[10.937440] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.962278] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.982613] (-) TimerEvent: {}
+[11.083183] (-) TimerEvent: {}
+[11.131006] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[11.184036] (-) TimerEvent: {}
+[11.241470] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[11.285002] (-) TimerEvent: {}
+[11.335701] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[11.340039] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[11.385408] (-) TimerEvent: {}
+[11.486159] (-) TimerEvent: {}
+[11.553070] (turtlebot3_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[11.586849] (-) TimerEvent: {}
+[11.687338] (-) TimerEvent: {}
+[11.788073] (-) TimerEvent: {}
+[11.823523] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[11.889237] (-) TimerEvent: {}
+[11.951898] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.5 (/opt/ros/humble/share/tf2/cmake)\n'}
+[11.989933] (-) TimerEvent: {}
+[12.090668] (-) TimerEvent: {}
+[12.111109] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[12.190967] (-) TimerEvent: {}
+[12.219608] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[12.225778] (turtlebot3_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/ahmedk/dev_ws/build/turtlebot3_gazebo\n'}
+[12.242933] (turtlebot3_gazebo) CommandEnded: {'returncode': 0}
+[12.243634] (turtlebot3_gazebo) JobProgress: {'identifier': 'turtlebot3_gazebo', 'progress': 'build'}
+[12.243666] (turtlebot3_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ahmedk/dev_ws/build/turtlebot3_gazebo', '--', '-j2', '-l2'], 'cwd': '/home/ahmedk/dev_ws/build/turtlebot3_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/turtlebot3_gazebo'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[12.291153] (-) TimerEvent: {}
+[12.302723] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlebot3_drive\x1b[0m\n'}
+[12.332212] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle1\x1b[0m\n'}
+[12.359269] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o\x1b[0m\n'}
+[12.391572] (-) TimerEvent: {}
+[12.494233] (-) TimerEvent: {}
+[12.512346] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o\x1b[0m\n'}
+[12.594659] (-) TimerEvent: {}
+[12.695139] (-) TimerEvent: {}
+[12.796410] (-) TimerEvent: {}
+[12.897120] (-) TimerEvent: {}
+[12.997826] (-) TimerEvent: {}
+[13.098531] (-) TimerEvent: {}
+[13.199568] (-) TimerEvent: {}
+[13.300080] (-) TimerEvent: {}
+[13.401211] (-) TimerEvent: {}
+[13.502101] (-) TimerEvent: {}
+[13.602601] (-) TimerEvent: {}
+[13.703671] (-) TimerEvent: {}
+[13.804281] (-) TimerEvent: {}
+[13.905197] (-) TimerEvent: {}
+[14.005958] (-) TimerEvent: {}
+[14.106651] (-) TimerEvent: {}
+[14.207960] (-) TimerEvent: {}
+[14.308811] (-) TimerEvent: {}
+[14.410349] (-) TimerEvent: {}
+[14.511146] (-) TimerEvent: {}
+[14.611890] (-) TimerEvent: {}
+[14.712567] (-) TimerEvent: {}
+[14.813376] (-) TimerEvent: {}
+[14.914194] (-) TimerEvent: {}
+[15.015281] (-) TimerEvent: {}
+[15.117119] (-) TimerEvent: {}
+[15.218301] (-) TimerEvent: {}
+[15.318956] (-) TimerEvent: {}
+[15.423011] (-) TimerEvent: {}
+[15.524128] (-) TimerEvent: {}
+[15.624852] (-) TimerEvent: {}
+[15.726191] (-) TimerEvent: {}
+[15.826760] (-) TimerEvent: {}
+[15.927861] (-) TimerEvent: {}
+[16.028810] (-) TimerEvent: {}
+[16.129459] (-) TimerEvent: {}
+[16.230749] (-) TimerEvent: {}
+[16.331905] (-) TimerEvent: {}
+[16.432471] (-) TimerEvent: {}
+[16.533559] (-) TimerEvent: {}
+[16.634286] (-) TimerEvent: {}
+[16.735515] (-) TimerEvent: {}
+[16.835925] (-) TimerEvent: {}
+[16.936892] (-) TimerEvent: {}
+[17.038373] (-) TimerEvent: {}
+[17.138891] (-) TimerEvent: {}
+[17.239617] (-) TimerEvent: {}
+[17.340329] (-) TimerEvent: {}
+[17.441283] (-) TimerEvent: {}
+[17.546142] (-) TimerEvent: {}
+[17.646872] (-) TimerEvent: {}
+[17.747292] (-) TimerEvent: {}
+[17.849289] (-) TimerEvent: {}
+[17.962268] (-) TimerEvent: {}
+[18.063569] (-) TimerEvent: {}
+[18.165126] (-) TimerEvent: {}
+[18.265988] (-) TimerEvent: {}
+[18.367091] (-) TimerEvent: {}
+[18.467940] (-) TimerEvent: {}
+[18.568763] (-) TimerEvent: {}
+[18.669523] (-) TimerEvent: {}
+[18.770652] (-) TimerEvent: {}
+[18.871374] (-) TimerEvent: {}
+[18.971795] (-) TimerEvent: {}
+[19.072191] (-) TimerEvent: {}
+[19.172824] (-) TimerEvent: {}
+[19.273736] (-) TimerEvent: {}
+[19.376215] (-) TimerEvent: {}
+[19.477817] (-) TimerEvent: {}
+[19.578935] (-) TimerEvent: {}
+[19.679557] (-) TimerEvent: {}
+[19.780167] (-) TimerEvent: {}
+[19.881169] (-) TimerEvent: {}
+[19.982308] (-) TimerEvent: {}
+[20.083001] (-) TimerEvent: {}
+[20.183490] (-) TimerEvent: {}
+[20.284191] (-) TimerEvent: {}
+[20.384798] (-) TimerEvent: {}
+[20.485529] (-) TimerEvent: {}
+[20.585906] (-) TimerEvent: {}
+[20.686399] (-) TimerEvent: {}
+[20.786883] (-) TimerEvent: {}
+[20.887438] (-) TimerEvent: {}
+[20.987866] (-) TimerEvent: {}
+[21.088857] (-) TimerEvent: {}
+[21.190042] (-) TimerEvent: {}
+[21.290537] (-) TimerEvent: {}
+[21.391214] (-) TimerEvent: {}
+[21.491933] (-) TimerEvent: {}
+[21.592412] (-) TimerEvent: {}
+[21.693367] (-) TimerEvent: {}
+[21.794214] (-) TimerEvent: {}
+[21.894986] (-) TimerEvent: {}
+[21.995574] (-) TimerEvent: {}
+[22.096169] (-) TimerEvent: {}
+[22.196972] (-) TimerEvent: {}
+[22.297557] (-) TimerEvent: {}
+[22.398361] (-) TimerEvent: {}
+[22.498911] (-) TimerEvent: {}
+[22.599368] (-) TimerEvent: {}
+[22.699957] (-) TimerEvent: {}
+[22.801128] (-) TimerEvent: {}
+[22.902483] (-) TimerEvent: {}
+[23.003105] (-) TimerEvent: {}
+[23.103940] (-) TimerEvent: {}
+[23.204615] (-) TimerEvent: {}
+[23.305348] (-) TimerEvent: {}
+[23.406077] (-) TimerEvent: {}
+[23.515114] (-) TimerEvent: {}
+[23.629764] (-) TimerEvent: {}
+[23.733810] (-) TimerEvent: {}
+[23.837258] (-) TimerEvent: {}
+[23.938625] (-) TimerEvent: {}
+[24.039352] (-) TimerEvent: {}
+[24.140346] (-) TimerEvent: {}
+[24.232738] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_fake_node\x1b[0m\n'}
+[24.241311] (-) TimerEvent: {}
+[24.342196] (-) TimerEvent: {}
+[24.442817] (-) TimerEvent: {}
+[24.543665] (-) TimerEvent: {}
+[24.644319] (-) TimerEvent: {}
+[24.745559] (-) TimerEvent: {}
+[24.846279] (-) TimerEvent: {}
+[24.946991] (-) TimerEvent: {}
+[25.047860] (-) TimerEvent: {}
+[25.150484] (-) TimerEvent: {}
+[25.251166] (-) TimerEvent: {}
+[25.351898] (-) TimerEvent: {}
+[25.452636] (-) TimerEvent: {}
+[25.543301] (turtlebot3_fake_node) StdoutLine: {'line': b'[100%] Built target turtlebot3_fake_node\n'}
+[25.553355] (-) TimerEvent: {}
+[25.626283] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[25.653790] (-) TimerEvent: {}
+[25.754494] (-) TimerEvent: {}
+[25.855071] (-) TimerEvent: {}
+[25.897979] (turtlebot3_fake_node) JobProgress: {'identifier': 'turtlebot3_fake_node', 'progress': 'install'}
+[25.898571] (turtlebot3_fake_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ahmedk/dev_ws/build/turtlebot3_fake_node'], 'cwd': '/home/ahmedk/dev_ws/build/turtlebot3_fake_node', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/turtlebot3_fake_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_first_py:/opt/ros/humble')]), 'shell': False}
+[25.930699] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.932774] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.934505] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/lib/turtlebot3_fake_node/turtlebot3_fake_node\n'}
+[25.937814] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/rviz2.launch.py\n'}
+[25.938251] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/launch/turtlebot3_fake_node.launch.py\n'}
+[25.939726] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/burger.yaml\n'}
+[25.940184] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle.yaml\n'}
+[25.940617] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/param/waffle_pi.yaml\n'}
+[25.943336] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/include//turtlebot3_fake_node/turtlebot3_fake_node.hpp\n'}
+[25.945472] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_fake_node\n'}
+[25.947549] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_fake_node\n'}
+[25.952977] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.sh\n'}
+[25.953625] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/ament_prefix_path.dsv\n'}
+[25.954358] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.sh\n'}
+[25.954811] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/environment/path.dsv\n'}
+[25.955292] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.bash\n'}
+[25.955402] (-) TimerEvent: {}
+[25.956114] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.sh\n'}
+[25.956569] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.zsh\n'}
+[25.957148] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/local_setup.dsv\n'}
+[25.957941] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Symlinking: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv\n'}
+[25.969945] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/ament_index/resource_index/packages/turtlebot3_fake_node\n'}
+[25.971273] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[25.972247] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[25.973288] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig.cmake\n'}
+[25.974019] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/cmake/turtlebot3_fake_nodeConfig-version.cmake\n'}
+[25.974476] (turtlebot3_fake_node) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ahmedk/dev_ws/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.xml\n'}
+[25.977531] (turtlebot3_fake_node) CommandEnded: {'returncode': 0}
+[26.056066] (-) TimerEvent: {}
+[26.156905] (-) TimerEvent: {}
+[26.258584] (-) TimerEvent: {}
+[26.339523] (turtlebot3_fake_node) JobEnded: {'identifier': 'turtlebot3_fake_node', 'rc': 0}
+[26.342245] (multmerging) JobStarted: {'identifier': 'multmerging'}
+[26.368862] (-) TimerEvent: {}
+[26.469582] (-) TimerEvent: {}
+[26.529639] (multmerging) JobProgress: {'identifier': 'multmerging', 'progress': 'cmake'}
+[26.530148] (multmerging) Command: {'cmd': ['/usr/bin/cmake', '/home/ahmedk/dev_ws/src/multi-robot-map-merge-main/src/multmerging', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/multmerging'], 'cwd': '/home/ahmedk/dev_ws/build/multmerging', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ahmedk'), ('LC_TIME', 'ar_EG.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ahmedk/dev_ws/install/my_own_srv/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ahmedk'), ('OLDPWD', '/home/ahmedk/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_EG.UTF-8'), ('MANAGERPID', '1368'), ('SYSTEMD_EXEC_PID', '1566'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4360'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ahmedk/dev_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ahmedk'), ('JOURNAL_STREAM', '8:39442'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ahmedk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ahmedk-virtual-machine:@/tmp/.ICE-unix/1524,unix/ahmedk-virtual-machine:/tmp/.ICE-unix/1524'), ('INVOCATION_ID', '6d6d9e5fc59c4bc9b6844d1eef4e1b35'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_EG.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'ar_EG.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.EQ8UF2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/add_two_int_srv:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_first_py:/home/ahmedk/dev_ws/install/my_bot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_EG.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:fb97cc30-ff74-4200-9899-f3e8e0dee2e3'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_EG.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ar_EG.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ahmedk/dev_ws/build/multmerging'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ahmedk/dev_ws/build/add_two_int_srv:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:/home/ahmedk/dev_ws/install/my_own_srv/local/lib/python3.10/dist-packages:/home/ahmedk/dev_ws/build/my_first_py:/home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_EG.UTF-8'), ('LC_PAPER', 'ar_EG.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package:/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/my_bot')]), 'shell': False}
+[26.570299] (-) TimerEvent: {}
+[26.670731] (-) TimerEvent: {}
+[26.771734] (-) TimerEvent: {}
+[26.830496] (multmerging) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[26.872501] (-) TimerEvent: {}
+[26.973960] (-) TimerEvent: {}
+[27.063312] (multmerging) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[27.074590] (-) TimerEvent: {}
+[27.079832] (multmerging) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[27.175256] (-) TimerEvent: {}
+[27.260915] (multmerging) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[27.275948] (-) TimerEvent: {}
+[27.290194] (multmerging) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[27.291484] (multmerging) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[27.292759] (multmerging) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[27.306909] (multmerging) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[27.376704] (-) TimerEvent: {}
+[27.477393] (-) TimerEvent: {}
+[27.515324] (multmerging) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[27.534470] (multmerging) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[27.534862] (multmerging) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[27.535369] (multmerging) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[27.560445] (multmerging) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:10 (find_package):\n'}
+[27.560864] (multmerging) StderrLine: {'line': b'  By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[27.561021] (multmerging) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "catkin", but\n'}
+[27.561295] (multmerging) StderrLine: {'line': b'  CMake did not find one.\n'}
+[27.561435] (multmerging) StderrLine: {'line': b'\n'}
+[27.561491] (multmerging) StderrLine: {'line': b'  Could not find a package configuration file provided by "catkin" with any\n'}
+[27.561545] (multmerging) StderrLine: {'line': b'  of the following names:\n'}
+[27.561599] (multmerging) StderrLine: {'line': b'\n'}
+[27.561653] (multmerging) StderrLine: {'line': b'    catkinConfig.cmake\n'}
+[27.561707] (multmerging) StderrLine: {'line': b'    catkin-config.cmake\n'}
+[27.561761] (multmerging) StderrLine: {'line': b'\n'}
+[27.561814] (multmerging) StderrLine: {'line': b'  Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set\n'}
+[27.561869] (multmerging) StderrLine: {'line': b'  "catkin_DIR" to a directory containing one of the above files.  If "catkin"\n'}
+[27.561923] (multmerging) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[27.561978] (multmerging) StderrLine: {'line': b'  installed.\n'}
+[27.562032] (multmerging) StderrLine: {'line': b'\n'}
+[27.562147] (multmerging) StderrLine: {'line': b'\x1b[0m\n'}
+[27.562387] (multmerging) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[27.562472] (multmerging) StdoutLine: {'line': b'See also "/home/ahmedk/dev_ws/build/multmerging/CMakeFiles/CMakeOutput.log".\n'}
+[27.564750] (multmerging) CommandEnded: {'returncode': 1}
+[27.578298] (-) TimerEvent: {}
+[27.679057] (multmerging) JobEnded: {'identifier': 'multmerging', 'rc': 1}
+[27.679585] (-) TimerEvent: {}
+[27.781026] (-) TimerEvent: {}
+[27.881696] (-) TimerEvent: {}
+[27.982440] (-) TimerEvent: {}
+[28.083321] (-) TimerEvent: {}
+[28.184064] (-) TimerEvent: {}
+[28.285211] (-) TimerEvent: {}
+[28.385732] (-) TimerEvent: {}
+[28.486640] (-) TimerEvent: {}
+[28.587411] (-) TimerEvent: {}
+[28.687804] (-) TimerEvent: {}
+[28.788366] (-) TimerEvent: {}
+[28.889068] (-) TimerEvent: {}
+[28.989801] (-) TimerEvent: {}
+[29.098434] (-) TimerEvent: {}
+[29.199238] (-) TimerEvent: {}
+[29.300130] (-) TimerEvent: {}
+[29.400711] (-) TimerEvent: {}
+[29.506572] (-) TimerEvent: {}
+[29.608217] (-) TimerEvent: {}
+[29.708697] (-) TimerEvent: {}
+[29.809152] (-) TimerEvent: {}
+[29.910123] (-) TimerEvent: {}
+[30.017501] (-) TimerEvent: {}
+[30.121583] (-) TimerEvent: {}
+[30.222178] (-) TimerEvent: {}
+[30.330272] (-) TimerEvent: {}
+[30.430760] (-) TimerEvent: {}
+[30.531415] (-) TimerEvent: {}
+[30.632586] (-) TimerEvent: {}
+[30.733055] (-) TimerEvent: {}
+[30.834974] (-) TimerEvent: {}
+[30.936232] (-) TimerEvent: {}
+[31.036971] (-) TimerEvent: {}
+[31.137822] (-) TimerEvent: {}
+[31.238422] (-) TimerEvent: {}
+[31.339214] (-) TimerEvent: {}
+[31.439929] (-) TimerEvent: {}
+[31.540618] (-) TimerEvent: {}
+[31.642000] (-) TimerEvent: {}
+[31.742608] (-) TimerEvent: {}
+[31.843348] (-) TimerEvent: {}
+[31.945132] (-) TimerEvent: {}
+[32.045858] (-) TimerEvent: {}
+[32.147023] (-) TimerEvent: {}
+[32.247764] (-) TimerEvent: {}
+[32.348510] (-) TimerEvent: {}
+[32.449274] (-) TimerEvent: {}
+[32.549957] (-) TimerEvent: {}
+[32.650684] (-) TimerEvent: {}
+[32.751504] (-) TimerEvent: {}
+[32.852268] (-) TimerEvent: {}
+[32.952970] (-) TimerEvent: {}
+[33.053762] (-) TimerEvent: {}
+[33.154630] (-) TimerEvent: {}
+[33.255684] (-) TimerEvent: {}
+[33.356698] (-) TimerEvent: {}
+[33.457664] (-) TimerEvent: {}
+[33.558540] (-) TimerEvent: {}
+[33.659133] (-) TimerEvent: {}
+[33.759471] (-) TimerEvent: {}
+[33.860151] (-) TimerEvent: {}
+[33.961645] (-) TimerEvent: {}
+[34.064618] (-) TimerEvent: {}
+[34.166441] (-) TimerEvent: {}
+[34.267300] (-) TimerEvent: {}
+[34.368352] (-) TimerEvent: {}
+[34.469519] (-) TimerEvent: {}
+[34.570289] (-) TimerEvent: {}
+[34.670966] (-) TimerEvent: {}
+[34.771696] (-) TimerEvent: {}
+[34.872465] (-) TimerEvent: {}
+[34.972918] (-) TimerEvent: {}
+[35.074092] (-) TimerEvent: {}
+[35.174981] (-) TimerEvent: {}
+[35.276240] (-) TimerEvent: {}
+[35.382946] (-) TimerEvent: {}
+[35.483795] (-) TimerEvent: {}
+[35.584534] (-) TimerEvent: {}
+[35.694024] (-) TimerEvent: {}
+[35.795370] (-) TimerEvent: {}
+[35.895842] (-) TimerEvent: {}
+[35.996454] (-) TimerEvent: {}
+[36.098656] (-) TimerEvent: {}
+[36.199330] (-) TimerEvent: {}
+[36.302036] (-) TimerEvent: {}
+[36.403140] (-) TimerEvent: {}
+[36.504009] (-) TimerEvent: {}
+[36.605113] (-) TimerEvent: {}
+[36.705843] (-) TimerEvent: {}
+[36.813947] (-) TimerEvent: {}
+[36.914565] (-) TimerEvent: {}
+[37.015614] (-) TimerEvent: {}
+[37.116100] (-) TimerEvent: {}
+[37.216691] (-) TimerEvent: {}
+[37.325351] (-) TimerEvent: {}
+[37.425824] (-) TimerEvent: {}
+[37.526209] (-) TimerEvent: {}
+[37.626556] (-) TimerEvent: {}
+[37.727209] (-) TimerEvent: {}
+[37.828478] (-) TimerEvent: {}
+[37.929302] (-) TimerEvent: {}
+[38.038001] (-) TimerEvent: {}
+[38.139149] (-) TimerEvent: {}
+[38.239872] (-) TimerEvent: {}
+[38.340718] (-) TimerEvent: {}
+[38.441463] (-) TimerEvent: {}
+[38.543112] (-) TimerEvent: {}
+[38.649967] (-) TimerEvent: {}
+[38.750584] (-) TimerEvent: {}
+[38.851091] (-) TimerEvent: {}
+[38.951670] (-) TimerEvent: {}
+[39.052234] (-) TimerEvent: {}
+[39.159768] (-) TimerEvent: {}
+[39.260210] (-) TimerEvent: {}
+[39.361370] (-) TimerEvent: {}
+[39.462610] (-) TimerEvent: {}
+[39.563275] (-) TimerEvent: {}
+[39.664619] (-) TimerEvent: {}
+[39.765269] (-) TimerEvent: {}
+[39.866021] (-) TimerEvent: {}
+[39.966608] (-) TimerEvent: {}
+[40.067456] (-) TimerEvent: {}
+[40.167860] (-) TimerEvent: {}
+[40.268347] (-) TimerEvent: {}
+[40.368796] (-) TimerEvent: {}
+[40.469230] (-) TimerEvent: {}
+[40.569935] (-) TimerEvent: {}
+[40.670361] (-) TimerEvent: {}
+[40.770883] (-) TimerEvent: {}
+[40.871415] (-) TimerEvent: {}
+[40.971899] (-) TimerEvent: {}
+[41.072739] (-) TimerEvent: {}
+[41.173351] (-) TimerEvent: {}
+[41.273909] (-) TimerEvent: {}
+[41.374459] (-) TimerEvent: {}
+[41.474942] (-) TimerEvent: {}
+[41.575454] (-) TimerEvent: {}
+[41.676176] (-) TimerEvent: {}
+[41.776757] (-) TimerEvent: {}
+[41.877337] (-) TimerEvent: {}
+[41.978153] (-) TimerEvent: {}
+[42.078934] (-) TimerEvent: {}
+[42.179713] (-) TimerEvent: {}
+[42.280226] (-) TimerEvent: {}
+[42.370712] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle1.so\x1b[0m\n'}
+[42.380335] (-) TimerEvent: {}
+[42.480881] (-) TimerEvent: {}
+[42.581403] (-) TimerEvent: {}
+[42.682976] (-) TimerEvent: {}
+[42.783920] (-) TimerEvent: {}
+[42.883604] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 37%] Built target obstacle1\n'}
+[42.883969] (-) TimerEvent: {}
+[42.914062] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle2\x1b[0m\n'}
+[42.984158] (-) TimerEvent: {}
+[43.047038] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o\x1b[0m\n'}
+[43.084519] (-) TimerEvent: {}
+[43.185175] (-) TimerEvent: {}
+[43.285756] (-) TimerEvent: {}
+[43.386413] (-) TimerEvent: {}
+[43.486994] (-) TimerEvent: {}
+[43.587517] (-) TimerEvent: {}
+[43.688747] (-) TimerEvent: {}
+[43.789361] (-) TimerEvent: {}
+[43.889955] (-) TimerEvent: {}
+[43.990559] (-) TimerEvent: {}
+[44.091834] (-) TimerEvent: {}
+[44.193283] (-) TimerEvent: {}
+[44.294303] (-) TimerEvent: {}
+[44.394938] (-) TimerEvent: {}
+[44.417372] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable turtlebot3_drive\x1b[0m\n'}
+[44.495156] (-) TimerEvent: {}
+[44.599305] (-) TimerEvent: {}
+[44.707724] (-) TimerEvent: {}
+[44.810934] (-) TimerEvent: {}
+[44.911407] (-) TimerEvent: {}
+[45.012146] (-) TimerEvent: {}
+[45.112842] (-) TimerEvent: {}
+[45.214278] (-) TimerEvent: {}
+[45.315360] (-) TimerEvent: {}
+[45.416076] (-) TimerEvent: {}
+[45.495379] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 62%] Built target turtlebot3_drive\n'}
+[45.516345] (-) TimerEvent: {}
+[45.518583] (turtlebot3_gazebo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacles\x1b[0m\n'}
+[45.567381] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o\x1b[0m\n'}
+[45.617064] (-) TimerEvent: {}
+[45.717830] (-) TimerEvent: {}
+[45.819093] (-) TimerEvent: {}
+[45.920376] (-) TimerEvent: {}
+[46.021022] (-) TimerEvent: {}
+[46.121852] (-) TimerEvent: {}
+[46.223084] (-) TimerEvent: {}
+[46.324418] (-) TimerEvent: {}
+[46.424951] (-) TimerEvent: {}
+[46.525731] (-) TimerEvent: {}
+[46.626552] (-) TimerEvent: {}
+[46.727307] (-) TimerEvent: {}
+[46.827869] (-) TimerEvent: {}
+[46.929133] (-) TimerEvent: {}
+[47.029935] (-) TimerEvent: {}
+[47.130682] (-) TimerEvent: {}
+[47.231387] (-) TimerEvent: {}
+[47.332032] (-) TimerEvent: {}
+[47.432811] (-) TimerEvent: {}
+[47.533599] (-) TimerEvent: {}
+[47.634346] (-) TimerEvent: {}
+[47.734952] (-) TimerEvent: {}
+[47.835680] (-) TimerEvent: {}
+[47.936563] (-) TimerEvent: {}
+[48.038195] (-) TimerEvent: {}
+[48.138909] (-) TimerEvent: {}
+[48.240169] (-) TimerEvent: {}
+[48.340939] (-) TimerEvent: {}
+[48.441569] (-) TimerEvent: {}
+[48.542309] (-) TimerEvent: {}
+[48.643064] (-) TimerEvent: {}
+[48.743884] (-) TimerEvent: {}
+[48.844498] (-) TimerEvent: {}
+[48.945222] (-) TimerEvent: {}
+[49.045958] (-) TimerEvent: {}
+[49.146685] (-) TimerEvent: {}
+[49.247530] (-) TimerEvent: {}
+[49.348226] (-) TimerEvent: {}
+[49.448894] (-) TimerEvent: {}
+[49.549601] (-) TimerEvent: {}
+[49.650333] (-) TimerEvent: {}
+[49.751057] (-) TimerEvent: {}
+[49.851786] (-) TimerEvent: {}
+[49.952516] (-) TimerEvent: {}
+[50.053284] (-) TimerEvent: {}
+[50.154110] (-) TimerEvent: {}
+[50.255704] (-) TimerEvent: {}
+[50.356569] (-) TimerEvent: {}
+[50.457225] (-) TimerEvent: {}
+[50.558916] (-) TimerEvent: {}
+[50.659612] (-) TimerEvent: {}
+[50.760415] (-) TimerEvent: {}
+[50.861089] (-) TimerEvent: {}
+[50.961806] (-) TimerEvent: {}
+[51.062541] (-) TimerEvent: {}
+[51.163262] (-) TimerEvent: {}
+[51.264093] (-) TimerEvent: {}
+[51.364722] (-) TimerEvent: {}
+[51.465625] (-) TimerEvent: {}
+[51.566283] (-) TimerEvent: {}
+[51.666965] (-) TimerEvent: {}
+[51.767644] (-) TimerEvent: {}
+[51.868416] (-) TimerEvent: {}
+[51.969105] (-) TimerEvent: {}
+[52.069866] (-) TimerEvent: {}
+[52.170567] (-) TimerEvent: {}
+[52.271326] (-) TimerEvent: {}
+[52.372228] (-) TimerEvent: {}
+[52.473876] (-) TimerEvent: {}
+[52.574483] (-) TimerEvent: {}
+[52.675205] (-) TimerEvent: {}
+[52.775963] (-) TimerEvent: {}
+[52.876717] (-) TimerEvent: {}
+[52.977401] (-) TimerEvent: {}
+[53.078132] (-) TimerEvent: {}
+[53.178870] (-) TimerEvent: {}
+[53.279704] (-) TimerEvent: {}
+[53.380407] (-) TimerEvent: {}
+[53.481084] (-) TimerEvent: {}
+[53.581849] (-) TimerEvent: {}
+[53.683768] (-) TimerEvent: {}
+[53.786784] (-) TimerEvent: {}
+[53.888114] (-) TimerEvent: {}
+[53.988795] (-) TimerEvent: {}
+[54.097934] (-) TimerEvent: {}
+[54.198946] (-) TimerEvent: {}
+[54.300790] (-) TimerEvent: {}
+[54.404926] (-) TimerEvent: {}
+[54.510061] (-) TimerEvent: {}
+[54.612701] (-) TimerEvent: {}
+[54.716325] (-) TimerEvent: {}
+[54.817659] (-) TimerEvent: {}
+[54.922098] (-) TimerEvent: {}
+[55.022857] (-) TimerEvent: {}
+[55.134395] (-) TimerEvent: {}
+[55.234841] (-) TimerEvent: {}
+[55.335446] (-) TimerEvent: {}
+[55.436070] (-) TimerEvent: {}
+[55.536706] (-) TimerEvent: {}
+[55.637318] (-) TimerEvent: {}
+[55.738341] (-) TimerEvent: {}
+[55.839243] (-) TimerEvent: {}
+[55.941611] (-) TimerEvent: {}
+[56.065175] (-) TimerEvent: {}
+[56.166720] (-) TimerEvent: {}
+[56.267182] (-) TimerEvent: {}
+[56.370689] (-) TimerEvent: {}
+[56.474807] (-) TimerEvent: {}
+[56.577523] (-) TimerEvent: {}
+[56.678471] (-) TimerEvent: {}
+[56.780849] (-) TimerEvent: {}
+[56.882387] (-) TimerEvent: {}
+[56.989542] (-) TimerEvent: {}
+[57.090434] (-) TimerEvent: {}
+[57.191490] (-) TimerEvent: {}
+[57.295119] (-) TimerEvent: {}
+[57.395651] (-) TimerEvent: {}
+[57.496132] (-) TimerEvent: {}
+[57.598534] (-) TimerEvent: {}
+[57.699145] (-) TimerEvent: {}
+[57.800443] (-) TimerEvent: {}
+[57.904438] (-) TimerEvent: {}
+[58.006043] (-) TimerEvent: {}
+[58.108317] (-) TimerEvent: {}
+[58.208731] (-) TimerEvent: {}
+[58.309225] (-) TimerEvent: {}
+[58.409604] (-) TimerEvent: {}
+[58.510131] (-) TimerEvent: {}
+[58.610445] (-) TimerEvent: {}
+[58.712016] (-) TimerEvent: {}
+[58.818046] (-) TimerEvent: {}
+[58.932637] (-) TimerEvent: {}
+[59.033171] (-) TimerEvent: {}
+[59.134228] (-) TimerEvent: {}
+[59.250835] (-) TimerEvent: {}
+[59.354690] (-) TimerEvent: {}
+[59.455272] (-) TimerEvent: {}
+[59.556547] (-) TimerEvent: {}
+[59.657756] (-) TimerEvent: {}
+[59.759172] (-) TimerEvent: {}
+[59.859746] (-) TimerEvent: {}
+[59.960961] (-) TimerEvent: {}
+[60.061497] (-) TimerEvent: {}
+[60.162919] (-) TimerEvent: {}
+[60.265294] (-) TimerEvent: {}
+[60.365690] (-) TimerEvent: {}
+[60.470691] (-) TimerEvent: {}
+[60.571365] (-) TimerEvent: {}
+[60.676130] (-) TimerEvent: {}
+[60.776977] (-) TimerEvent: {}
+[60.877521] (-) TimerEvent: {}
+[60.979224] (-) TimerEvent: {}
+[61.084468] (-) TimerEvent: {}
+[61.197234] (-) TimerEvent: {}
+[61.297793] (-) TimerEvent: {}
+[61.398626] (-) TimerEvent: {}
+[61.499598] (-) TimerEvent: {}
+[61.620845] (-) TimerEvent: {}
+[61.721661] (-) TimerEvent: {}
+[61.822300] (-) TimerEvent: {}
+[61.923964] (-) TimerEvent: {}
+[62.025086] (-) TimerEvent: {}
+[62.125614] (-) TimerEvent: {}
+[62.226202] (-) TimerEvent: {}
+[62.327530] (-) TimerEvent: {}
+[62.431183] (-) TimerEvent: {}
+[62.539796] (-) TimerEvent: {}
+[62.646429] (-) TimerEvent: {}
+[62.754186] (-) TimerEvent: {}
+[62.855015] (-) TimerEvent: {}
+[62.958463] (-) TimerEvent: {}
+[63.059026] (-) TimerEvent: {}
+[63.159604] (-) TimerEvent: {}
+[63.260310] (-) TimerEvent: {}
+[63.361000] (-) TimerEvent: {}
+[63.461771] (-) TimerEvent: {}
+[63.563087] (-) TimerEvent: {}
+[63.663819] (-) TimerEvent: {}
+[63.767735] (-) TimerEvent: {}
+[63.868789] (-) TimerEvent: {}
+[63.969380] (-) TimerEvent: {}
+[64.069966] (-) TimerEvent: {}
+[64.170465] (-) TimerEvent: {}
+[64.274525] (-) TimerEvent: {}
+[64.375052] (-) TimerEvent: {}
+[64.476008] (-) TimerEvent: {}
+[64.580337] (-) TimerEvent: {}
+[64.681239] (-) TimerEvent: {}
+[64.782062] (-) TimerEvent: {}
+[64.882621] (-) TimerEvent: {}
+[64.983248] (-) TimerEvent: {}
+[65.083727] (-) TimerEvent: {}
+[65.188660] (-) TimerEvent: {}
+[65.293779] (-) TimerEvent: {}
+[65.400240] (-) TimerEvent: {}
+[65.500865] (-) TimerEvent: {}
+[65.601579] (-) TimerEvent: {}
+[65.702519] (-) TimerEvent: {}
+[65.802913] (-) TimerEvent: {}
+[65.905892] (-) TimerEvent: {}
+[66.012088] (-) TimerEvent: {}
+[66.112866] (-) TimerEvent: {}
+[66.216305] (-) TimerEvent: {}
+[66.318301] (-) TimerEvent: {}
+[66.419842] (-) TimerEvent: {}
+[66.525510] (-) TimerEvent: {}
+[66.629643] (-) TimerEvent: {}
+[66.730142] (-) TimerEvent: {}
+[66.839010] (-) TimerEvent: {}
+[66.940200] (-) TimerEvent: {}
+[67.042798] (-) TimerEvent: {}
+[67.143277] (-) TimerEvent: {}
+[67.243819] (-) TimerEvent: {}
+[67.347524] (-) TimerEvent: {}
+[67.454496] (-) TimerEvent: {}
+[67.555205] (-) TimerEvent: {}
+[67.655703] (-) TimerEvent: {}
+[67.757016] (-) TimerEvent: {}
+[67.862375] (-) TimerEvent: {}
+[67.962985] (-) TimerEvent: {}
+[68.063465] (-) TimerEvent: {}
+[68.164450] (-) TimerEvent: {}
+[68.265723] (-) TimerEvent: {}
+[68.370088] (-) TimerEvent: {}
+[68.471184] (-) TimerEvent: {}
+[68.571905] (-) TimerEvent: {}
+[68.672291] (-) TimerEvent: {}
+[68.776208] (-) TimerEvent: {}
+[68.876995] (-) TimerEvent: {}
+[68.977616] (-) TimerEvent: {}
+[69.078153] (-) TimerEvent: {}
+[69.178884] (-) TimerEvent: {}
+[69.279849] (-) TimerEvent: {}
+[69.380447] (-) TimerEvent: {}
+[69.481653] (-) TimerEvent: {}
+[69.582310] (-) TimerEvent: {}
+[69.683762] (-) TimerEvent: {}
+[69.784194] (-) TimerEvent: {}
+[69.884598] (-) TimerEvent: {}
+[69.984993] (-) TimerEvent: {}
+[70.085515] (-) TimerEvent: {}
+[70.186918] (-) TimerEvent: {}
+[70.287428] (-) TimerEvent: {}
+[70.387843] (-) TimerEvent: {}
+[70.488348] (-) TimerEvent: {}
+[70.588922] (-) TimerEvent: {}
+[70.689838] (-) TimerEvent: {}
+[70.796009] (-) TimerEvent: {}
+[70.896987] (-) TimerEvent: {}
+[70.997411] (-) TimerEvent: {}
+[71.098622] (-) TimerEvent: {}
+[71.199052] (-) TimerEvent: {}
+[71.299442] (-) TimerEvent: {}
+[71.405727] (-) TimerEvent: {}
+[71.514126] (-) TimerEvent: {}
+[71.614984] (-) TimerEvent: {}
+[71.717241] (-) TimerEvent: {}
+[71.829022] (-) TimerEvent: {}
+[71.930150] (-) TimerEvent: {}
+[72.030761] (-) TimerEvent: {}
+[72.138865] (-) TimerEvent: {}
+[72.241072] (-) TimerEvent: {}
+[72.341997] (-) TimerEvent: {}
+[72.446847] (-) TimerEvent: {}
+[72.547431] (-) TimerEvent: {}
+[72.650548] (-) TimerEvent: {}
+[72.751110] (-) TimerEvent: {}
+[72.851575] (-) TimerEvent: {}
+[72.952503] (-) TimerEvent: {}
+[73.054595] (-) TimerEvent: {}
+[73.158248] (-) TimerEvent: {}
+[73.260232] (-) TimerEvent: {}
+[73.366242] (-) TimerEvent: {}
+[73.466809] (-) TimerEvent: {}
+[73.567246] (-) TimerEvent: {}
+[73.667757] (-) TimerEvent: {}
+[73.768307] (-) TimerEvent: {}
+[73.871118] (-) TimerEvent: {}
+[73.971864] (-) TimerEvent: {}
+[74.075654] (-) TimerEvent: {}
+[74.179741] (-) TimerEvent: {}
+[74.280324] (-) TimerEvent: {}
+[74.387134] (-) TimerEvent: {}
+[74.489198] (-) TimerEvent: {}
+[74.591412] (-) TimerEvent: {}
+[74.698307] (-) TimerEvent: {}
+[74.802673] (-) TimerEvent: {}
+[74.903670] (-) TimerEvent: {}
+[75.011189] (-) TimerEvent: {}
+[75.114255] (-) TimerEvent: {}
+[75.214689] (-) TimerEvent: {}
+[75.315294] (-) TimerEvent: {}
+[75.418948] (-) TimerEvent: {}
+[75.519645] (-) TimerEvent: {}
+[75.622868] (-) TimerEvent: {}
+[75.723649] (-) TimerEvent: {}
+[75.824121] (-) TimerEvent: {}
+[75.924596] (-) TimerEvent: {}
+[76.029334] (-) TimerEvent: {}
+[76.133817] (-) TimerEvent: {}
+[76.240708] (-) TimerEvent: {}
+[76.341678] (-) TimerEvent: {}
+[76.442363] (-) TimerEvent: {}
+[76.543189] (-) TimerEvent: {}
+[76.644330] (-) TimerEvent: {}
+[76.744772] (-) TimerEvent: {}
+[76.845988] (-) TimerEvent: {}
+[76.954487] (-) TimerEvent: {}
+[77.056117] (-) TimerEvent: {}
+[77.156875] (-) TimerEvent: {}
+[77.259548] (-) TimerEvent: {}
+[77.360359] (-) TimerEvent: {}
+[77.460958] (-) TimerEvent: {}
+[77.564095] (-) TimerEvent: {}
+[77.665403] (-) TimerEvent: {}
+[77.766453] (-) TimerEvent: {}
+[77.867583] (-) TimerEvent: {}
+[77.968177] (-) TimerEvent: {}
+[78.003209] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle2.so\x1b[0m\n'}
+[78.069756] (-) TimerEvent: {}
+[78.170311] (-) TimerEvent: {}
+[78.272197] (-) TimerEvent: {}
+[78.372994] (-) TimerEvent: {}
+[78.474708] (-) TimerEvent: {}
+[78.580967] (-) TimerEvent: {}
+[78.688488] (-) TimerEvent: {}
+[78.788948] (-) TimerEvent: {}
+[78.889909] (-) TimerEvent: {}
+[78.991907] (-) TimerEvent: {}
+[79.025545] (turtlebot3_gazebo) StdoutLine: {'line': b'[ 87%] Built target obstacle2\n'}
+[79.092361] (-) TimerEvent: {}
+[79.193336] (-) TimerEvent: {}
+[79.293939] (-) TimerEvent: {}
+[79.394826] (-) TimerEvent: {}
+[79.495412] (-) TimerEvent: {}
+[79.596745] (-) TimerEvent: {}
+[79.697521] (-) TimerEvent: {}
+[79.798978] (-) TimerEvent: {}
+[79.899897] (-) TimerEvent: {}
+[80.000647] (-) TimerEvent: {}
+[80.101322] (-) TimerEvent: {}
+[80.201862] (-) TimerEvent: {}
+[80.303031] (-) TimerEvent: {}
+[80.403373] (-) TimerEvent: {}
+[80.511386] (-) TimerEvent: {}
+[80.622178] (-) TimerEvent: {}
+[80.726351] (-) TimerEvent: {}
+[80.827280] (-) TimerEvent: {}
+[80.929198] (-) TimerEvent: {}
+[80.929485] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacles.so\x1b[0m\n'}
+[81.029758] (-) TimerEvent: {}
+[81.130310] (-) TimerEvent: {}
+[81.204438] (turtlebot3_gazebo) StdoutLine: {'line': b'[100%] Built target obstacles\n'}
+[81.230779] (-) TimerEvent: {}
+[81.336349] (-) TimerEvent: {}
+[81.342719] (turtlebot3_gazebo) JobEnded: {'identifier': 'turtlebot3_gazebo', 'rc': 'SIGINT'}
+[81.417445] (my_bot) JobSkipped: {'identifier': 'my_bot'}
+[81.417547] (my_first_py) JobSkipped: {'identifier': 'my_first_py'}
+[81.417576] (my_package) JobSkipped: {'identifier': 'my_package'}
+[81.417599] (rplidar_ros) JobSkipped: {'identifier': 'rplidar_ros'}
+[81.417620] (add_two_int_srv) JobSkipped: {'identifier': 'add_two_int_srv'}
+[81.417641] (turtlebot3_simulations) JobSkipped: {'identifier': 'turtlebot3_simulations'}
+[81.417662] (-) EventReactorShutdown: {}

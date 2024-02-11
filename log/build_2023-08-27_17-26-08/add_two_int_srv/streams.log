@@ -1,0 +1,17 @@
+[0.656s] Invoking command in '/home/ahmedk/dev_ws/build/add_two_int_srv': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build --no-deps install_data
+[0.903s] running develop
+[1.063s] running egg_info
+[1.063s] writing add_two_int_srv.egg-info/PKG-INFO
+[1.064s] writing dependency_links to add_two_int_srv.egg-info/dependency_links.txt
+[1.064s] writing entry points to add_two_int_srv.egg-info/entry_points.txt
+[1.064s] writing requirements to add_two_int_srv.egg-info/requires.txt
+[1.065s] writing top-level names to add_two_int_srv.egg-info/top_level.txt
+[1.067s] reading manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+[1.068s] writing manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+[1.069s] running build_ext
+[1.070s] Creating /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add-two-int-srv.egg-link (link to .)
+[1.071s] Installing server script to /home/ahmedk/dev_ws/install/add_two_int_srv/lib/add_two_int_srv
+[1.071s] 
+[1.071s] Installed /home/ahmedk/dev_ws/build/add_two_int_srv
+[1.071s] running install_data
+[1.098s] Invoked command in '/home/ahmedk/dev_ws/build/add_two_int_srv' returned '0': CMAKE_PREFIX_PATH=/home/ahmedk/dev_ws/install/my_own_srv:/home/ahmedk/dev_ws/install/turtlebot3_simulations:/home/ahmedk/dev_ws/install/turtlebot3_gazebo:/home/ahmedk/dev_ws/install/turtlebot3_fake_node:/home/ahmedk/dev_ws/install/my_package PYTHONPATH=/home/ahmedk/dev_ws/build/add_two_int_srv/prefix_override:/home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ahmedk/dev_ws/build/add_two_int_srv/build --no-deps install_data

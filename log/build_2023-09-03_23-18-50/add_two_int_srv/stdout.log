@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing add_two_int_srv.egg-info/PKG-INFO
+writing dependency_links to add_two_int_srv.egg-info/dependency_links.txt
+writing entry points to add_two_int_srv.egg-info/entry_points.txt
+writing requirements to add_two_int_srv.egg-info/requires.txt
+writing top-level names to add_two_int_srv.egg-info/top_level.txt
+reading manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+writing manifest file 'add_two_int_srv.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ahmedk/dev_ws/install/add_two_int_srv/lib/python3.10/site-packages/add-two-int-srv.egg-link (link to .)
+Installing server script to /home/ahmedk/dev_ws/install/add_two_int_srv/lib/add_two_int_srv
+
+Installed /home/ahmedk/dev_ws/build/add_two_int_srv
+running install_data

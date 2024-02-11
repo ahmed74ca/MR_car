@@ -1,0 +1,18 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/launch/talker.launch.py
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.sh
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/environment/path.sh
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/environment/path.dsv
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/local_setup.bash
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/local_setup.sh
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/local_setup.zsh
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/local_setup.dsv
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/package.dsv
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/ament_index/resource_index/packages/my_package
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+-- Symlinking: /home/ahmedk/dev_ws/install/my_package/share/my_package/package.xml

@@ -1,0 +1,6 @@
+Invoking command in '/home/ahmedk/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ahmedk/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/my_package
+Invoked command in '/home/ahmedk/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ahmedk/dev_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/ahmedk/dev_ws/install/my_package
+Invoking command in '/home/ahmedk/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_package -- -j2 -l2
+Invoked command in '/home/ahmedk/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ahmedk/dev_ws/build/my_package -- -j2 -l2
+Invoking command in '/home/ahmedk/dev_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/my_package
+Invoked command in '/home/ahmedk/dev_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ahmedk/dev_ws/build/my_package

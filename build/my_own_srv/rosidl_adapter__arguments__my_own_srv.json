@@ -1,0 +1,6 @@
+{
+  "package_name": "my_own_srv",
+  "non_idl_tuples": [
+    "/home/ahmedk/dev_ws/src/my_own_srv:srv/AddTwoInts.srv"
+  ]
+}

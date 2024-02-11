@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating my_first_py.egg-info
+writing my_first_py.egg-info/PKG-INFO
+writing dependency_links to my_first_py.egg-info/dependency_links.txt
+writing entry points to my_first_py.egg-info/entry_points.txt
+writing requirements to my_first_py.egg-info/requires.txt
+writing top-level names to my_first_py.egg-info/top_level.txt
+writing manifest file 'my_first_py.egg-info/SOURCES.txt'
+reading manifest file 'my_first_py.egg-info/SOURCES.txt'
+writing manifest file 'my_first_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ahmedk/dev_ws/install/my_first_py/lib/python3.10/site-packages/my-first-py.egg-link (link to .)
+Installing listner script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+Installing talker script to /home/ahmedk/dev_ws/install/my_first_py/lib/my_first_py
+
+Installed /home/ahmedk/dev_ws/build/my_first_py
+running install_data
+creating /home/ahmedk/dev_ws/install/my_first_py/share/ament_index
+creating /home/ahmedk/dev_ws/install/my_first_py/share/ament_index/resource_index
+creating /home/ahmedk/dev_ws/install/my_first_py/share/ament_index/resource_index/packages
+copying resource/my_first_py -> /home/ahmedk/dev_ws/install/my_first_py/share/ament_index/resource_index/packages
+copying package.xml -> /home/ahmedk/dev_ws/install/my_first_py/share/my_first_py
